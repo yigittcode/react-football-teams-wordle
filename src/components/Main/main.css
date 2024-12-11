@@ -1,0 +1,79 @@
+#game-area {
+    margin: 0 auto;
+    padding: 20px;
+    width: fit-content;
+}
+
+#game-board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background-color: #f5f5f5;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.letter {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #302828;
+    margin: 0 0.5rem;
+    border: 2px solid #771414;
+    border-radius: 8px;
+    padding: 1rem 1rem;
+    background-color: #fff;
+    width: 4rem;
+    height: 4rem;
+}
+
+.team-name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#letter-buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 600px;
+}
+
+.letter-button {
+    background-color: #eaebec;
+    color: #04b5cc;
+    border: none;
+    border-radius: 8px;
+    padding: 1rem 1rem;
+    width: 2rem;
+    height: 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.space {
+    visibility: hidden;
+}
+
+.selected {
+    background-color: #2c4dbd;
+    color: #fff;
+}
+#reset-button {
+    background-color: #2c4dbd;
+    color: #fff;
+    padding: 1rem 1rem;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
